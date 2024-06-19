@@ -1,0 +1,62 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(90deg, #00f, #00a);
+    padding: 10px 0;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff0;
+}
+
+section {
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+#home {
+    background: #f0f0f0;
+}
+
+#services {
+    background: #d0d0d0;
+}
+
+#about {
+    background: #b0b0b0;
+}
+
+#contact {
+    background: #909090;
+}
